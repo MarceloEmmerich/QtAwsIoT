@@ -4,7 +4,9 @@ QT -= gui
 QT += network websockets 
 
 INCLUDEPATH += \
-    $${PWD}/src/
+    $${PWD}/src/ \
+    $${PWD}/../../QtMqtt/src/
+
 
 SOURCES += \
     $${PWD}/src/qawsiotclient.cpp \
